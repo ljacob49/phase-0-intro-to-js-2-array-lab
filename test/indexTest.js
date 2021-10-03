@@ -17,6 +17,7 @@ describe('index.js', function () {
         destructivelyAppendCat('Ralph');
 
         expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield", "Ralph"]);
+        cats.push (-1, "Ralph")
       });
     });
 
